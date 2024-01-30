@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    background: rgb(29, 32, 33);
+}
+
+h2 {
+    color: rgb(223, 117, 18);
+    font-family: 'Rubik', sans-serif;
+    width: 350px;
+    text-align: center;
+}
+
+section button {
+    background: rgb(223, 117, 18);
+    border: none;
+    border-radius: 3px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(29, 32, 33);
+    align-items: center;
+    justify-content: center;
+}
+
+#generarPregunta {
+    width: 350px;
+    height: 50px;
+    color: rgb(161, 161, 161);
+    background: rgb(22, 24, 25);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#subirBD {
+    width: 350px;
+    height: 50px;
+    color: rgb(161, 161, 161);
+    background: rgb(22, 24, 25);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#textareaPregunta {
+    background: rgb(29, 32, 33);
+    width: 400px;
+    color: rgb(148, 139, 129);
+    border-radius: 10px;
+}
+
+
+span {
+    color: rgb(223, 117, 18);
+    align-items: end;
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+
+#opcionMateria {
+    margin: 10px;
+    background: rgb(22, 24, 25);
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    padding-left: 15px;
+}
+
+#opcionTema {
+    margin: 10px;
+    margin-bottom: 40px;
+    background: rgb(22, 24, 25);
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    padding-left: 15px;
+}
+
+#option {
+    max-width: 350px;
+    width: 150px;
+
+}
+
+#textoPregunta {
+    width: 90%;
+    color: rgb(148, 139, 129);
+}
+
+#pregunta_completa {
+    width: 450px;
+    height: 225px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 25px -10px;
+}
+
+#header_pregunta {
+    width: 100%;
+    height: 10%;
+    background: rgb(22, 24, 25);
+    border-radius: 6px 6px 0px 0px;
+    border: 2px solid rgb(22, 24, 25);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#copiarPregunta p {
+    width: 100px;
+}
+
+#copiarPregunta span {
+    transform: translateY(-0px);
+    margin-right: 5px;
+    font-size: 16px;
+    color: rgb(192, 168, 145);
+}
+
+#copiarPregunta {
+    display: flex;
+    flex-direction: row;
+    width: 135px;
+    background: none;
+    color: rgb(192, 168, 145);
+    justify-content: end;
+    margin-right: 5px;
+}
+
+#copiarPregunta:active {
+    background: rgb(136, 124, 113);
+    color: black;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+#content_pregunta {
+    width: 100%;
+    height: 90%;
+    border: 2px solid rgb(22, 24, 25);
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    background: rgb(29, 32, 33);
+}
+
+#confirmacionSection {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.747);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#confirmacion {
+    width: 1250px;
+    height: 750px;
+    background: rgb(29, 32, 33);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#confirmacion p {
+    color: white;
+    margin: 0;
+    width: 1150px;
+    text-align: center;
+}
+
+#confirmacion .output_confirm {
+    color: rgb(177, 115, 1);
+    margin: 0;
+    margin-top: 25px;
+}
+
+#confirmacionAceptar {
+    width: 150px;
+    height: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#confirmacionAceptar:hover {
+    background: black;
+    color: white;
+    transform: scale(1.2);
+}
+
+#confirmacionNegar {
+    width: 150px;
+    height: 25px;
+    background: gray;
+}
+
+#confirmacionNegar:hover {
+    background: black;
+    color: white;
+    transform: scale(1.2);
+}
